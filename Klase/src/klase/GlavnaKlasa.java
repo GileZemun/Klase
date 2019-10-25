@@ -4,7 +4,7 @@ public class GlavnaKlasa {
 
 	public static void main(String[] args) {
 
-		Car automobil = new Car (); //instanca klase Car
+	    /*Car automobil = new Car (); //instanca klase Car
 		
 		automobil.boja = "crvena";
 		automobil.cena = 150000;
@@ -26,7 +26,41 @@ public class GlavnaKlasa {
 		automobil2.marka = "Atom";
 		automobil2.model = "Ariel";
 		
-		System.out.println("Najbrzi auto je: " + automobil2.marka +  " "  +automobil2.model);
+		System.out.println("Najbrzi auto je: " + automobil2.marka +  " "  +automobil2.model);*/
+		
+		
+		/*Person osoba = new Person();
+
+		osoba.ime = "Jovan";	
+		osoba.prezime = "Jovanovic";
+
+	System.out.println("Ime osobe je " + osoba.ime + " " + osoba.prezime);
+
+	Car car = new Car();
+
+		car.marka = "fiat";
+
+	osoba.automobil = car;
+
+	System.out.println("Ova osoba vozi automobil marke " + osoba.automobil.marka);*/
+		
+		Person p = new Person (); //konstruktor metoda
+		Person p1 = new Person ("Marka","Markovica", 1987);
+		
+		String ime = "Zorana";
+		String prezime = "Zoranica";
+		String kilaza = "stokilasa";
+		
+		
+		p.ime = "Zike";
+		
+		p.pozdravSvete("Zoran");
+		
+		String imeOsobe = p.ime;
+		
+		p.pozdrav(p1.ime,p1.prezime);
+		
+		
 		
 		
 		
