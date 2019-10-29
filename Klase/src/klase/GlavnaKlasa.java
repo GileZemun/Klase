@@ -26,10 +26,10 @@ public class GlavnaKlasa {
 		automobil2.marka = "Atom";
 		automobil2.model = "Ariel";
 		
-		System.out.println("Najbrzi auto je: " + automobil2.marka +  " "  +automobil2.model);*/
+		System.out.println("Najbrzi auto je: " + automobil2.marka +  " "  +automobil2.model);
 		
 		
-		/*Person osoba = new Person();
+		Person osoba = new Person();
 
 		osoba.ime = "Jovan";	
 		osoba.prezime = "Jovanovic";
@@ -44,7 +44,7 @@ public class GlavnaKlasa {
 
 	System.out.println("Ova osoba vozi automobil marke " + osoba.automobil.marka);*/
 		
-		Person p = new Person (); //konstruktor metoda
+		/* Person p = new Person (); //konstruktor metoda
 		Person p1 = new Person ("Marka","Markovica", 1987);
 		
 		String ime = "Zorana";
@@ -58,9 +58,32 @@ public class GlavnaKlasa {
 		
 		String imeOsobe = p.ime;
 		
-		p.pozdrav(p1.ime,p1.prezime);
+		p.pozdrav(p1.ime,p1.prezime)
 		
+		Alat tool = new Alat();
 		
+		tool.pozdrav();		
+		tool.pozdrav("Zorana");		
+		tool.pozdrav("Mihajlovic");
+		
+		String i = "Pera";
+		String p = "Detlic";
+		int g = 15;
+		
+		String name = tool.imeIprezime(i,p);
+			System.out.println(name);
+		
+		String brojGodina = tool.godine(g);
+			System.out.println(brojGodina);
+			
+		int prviBroj = 5;
+		int drugiBroj = 9;
+		
+		int zbirBrojeva = tool.saberi(prviBroj, drugiBroj);
+			System.out.println("Zbir brojeva je " + zbirBrojeva);*/
+		
+		double x = Alat.kvadratBroja(7);
+			System.out.println(x);
 		
 		
 		
