@@ -5,6 +5,7 @@ public class Drzava {
 	private String imeDrzave;
 	private int brojStanovnika;
 	private double povrsina;
+	
 	public String getImeDrzave() {
 		return imeDrzave;
 	}
@@ -23,6 +24,8 @@ public class Drzava {
 	public void setPovrsina(double povrsina) {
 		this.povrsina = povrsina;
 	}
+	
+	
 	
 	
 	
