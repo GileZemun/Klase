@@ -85,7 +85,7 @@ public class GlavnaKlasa {
 		double x = Alat.kvadratBroja(7);
 			System.out.println(x);*/
 		
-		Drzava drzava = new Drzava (); // metode get i set
+		Drzava drzava = new Drzava (); // metode get i set i tako
 		
 		drzava.setImeDrzave("Srbija");
 		drzava.setBrojStanovnika(7000000);
